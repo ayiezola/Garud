@@ -144,7 +144,7 @@ banner(){
     echo -e "${NORMAL}${BOLD}\n \t\tcoded by R0X4R in ${RED}INDIA${NORMAL}${BOLD} with ${RED}<3${NORMAL}\n"
     echo -e "- TARGET: ${GREEN}$domain${NORMAL} \t - OUTPUT: ${GREEN}$(pwd)${NORMAL}"
     echo -e ""
-    echo -e "[Garud] - Scanning started on $domain at $(date)" | notify -silent
+    echo -e "[Hye Rooted001] - Scanning started on $domain at $(date)" | notify -silent
 }
 
 #> MAKE FOLDERS
@@ -334,7 +334,7 @@ fuzzdir(){
 sendnote(){
     echo -e ""
     echo -e "${BOLD}Scanning completed on $domain${NORMAL}"
-    echo -e "[Garud] - Scanning completed on $domain at $(date)" | notify -silent
+    echo -e "[Rooted001] - Scanning completed on $domain at $(date)" | notify -silent
 }
 
 vault(){
