@@ -144,7 +144,7 @@ banner(){
     echo -e "${NORMAL}${BOLD}\n \t\tcoded by R0X4R in ${RED}INDIA${NORMAL}${BOLD} with ${RED}<3${NORMAL}\n"
     echo -e "- TARGET: ${GREEN}$domain${NORMAL} \t - OUTPUT: ${GREEN}$(pwd)${NORMAL}"
     echo -e ""
-    echo -e "[Hye Rooted001] - Scanning started on $domain at $(date)" | notify -silent
+    echo -e "[Hye Rooted001] - Scanning started on $domain at $(date) by $(hostname)" | notify -silent
 }
 
 #> MAKE FOLDERS
